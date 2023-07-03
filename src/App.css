@@ -101,6 +101,10 @@
   width: 45px;
 }
 
+.spoon__img-rev{
+  width: 45px;
+  transform: scaleX(-1);
+}
 @media screen and (min-width: 2000px) {
   .custom__button,
   .p__cormorant {
@@ -120,6 +124,11 @@
 
   .spoon__img {
     width: 80px;
+  }
+
+  .spoon__img-rev {
+    width: 80px;
+    transform: scaleX(-1);
   }
 }
 
